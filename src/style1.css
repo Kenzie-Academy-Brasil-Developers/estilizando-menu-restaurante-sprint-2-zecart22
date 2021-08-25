@@ -1,28 +1,92 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
+body {
+  font-family: lato;
+  font-size: 18px;
+  background-image: url("https://bit.ly/3yhhrAh");
+  background-image-height:10px;
+  
+  
+}
 
-/* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
-nav {font-family: sans-serif; font-size: 10px;}
+#title{
+  font-family: Supermercado One;
+  font-seix: 45px;
+  color: #5d4037;
+}
 
-#main {width: 900px; margin: 10px auto;}
-/* Use the 'Supermercado One' font at 45px (colored #5d4037) for the restaurant name. */
+#s1 {
+  
+}
 
-/* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
-#menu {columns: 400px 2; column-gap: 100px;}
-section {margin-bottom: 50px;}
+#s2 {
+  
+}
 
-/* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41. */
-h2 {margin: 0;}
+#main {
+	float: center;
+	
+}
 
-/* Make the name of each menu item appear in bold in a 20px size. */
+#activate {
+  
+}
+
+#activate1{
+  
+} 
+
+#activate2{
+  
+}
+
+#menu{
+  column-count: 2;
+  column-rule-style: dotted;
+  column-rule-width: 2px;
+  column-rule-color: #bc8f8f;
+}
+
+#starters{
+  
+}
+
+#soupssalads{
+  
+}
+
+#entrees{
+  
+}
+
+#desserts{
+  
+}
+
+#footAdress{
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #bc8f8f;
+}
+
+.price {
+  color: #b22222;
+  width: 12.5%;
+	float: right;
+	margin-left: 30px;
+  
+}
+
+.details{
+  
+}
+
+.namesFood{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.headSections{
+  color: #6d4c41;
+  font-variant: small-caps;
+}
 
 
-
-dd {margin: 0 0 12px 0; display: flex;}
-
-.details {order: 1;}
-
-/* Show the price of each item in a large font, in the color named 'firebrick' */
-.price {order: 2; padding-left: 10px;}
-
-/* Draw a 2px dashed rosybrown border around the address/footer */
-address {padding: 10px;}
