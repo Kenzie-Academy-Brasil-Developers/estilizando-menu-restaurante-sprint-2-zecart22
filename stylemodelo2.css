@@ -1,0 +1,118 @@
+body {
+  font-family:Oswald ;
+  font-size: 14px;
+
+  
+  
+}
+
+#title{
+  font-family:Bungee Inline;
+  font-size:46px;
+  text-align: center;
+
+}
+
+#s1 {
+  
+}
+
+#s2 {
+  
+}
+
+#main {
+
+	
+}
+
+#activate {
+  
+}
+
+#activate1{
+  
+} 
+
+#activate2{
+  
+}
+
+#menu{
+  column-count:2;
+  column-rule-style:;
+  column-rule-width:2px;
+ 
+}
+
+#starters{
+  display: inline-block;
+  width: 380px;
+  height: 220px;
+  padding: 6px;
+  border: 2px solid black;
+ 
+}
+
+#blueBox{
+  
+}
+
+#soupssalads{
+  display: inline-block;
+  width: 380px;
+  height: 220px;
+  padding: 6px;
+  border: 2px;
+
+  
+}
+
+#entrees{
+  display: inline-block;
+  width: 380px;
+  height: 220px;
+  padding: 6px;
+  border: 2px ;
+
+  
+}
+
+#desserts{
+  display: inline-block;
+  width: 380px;
+  height: 220px;
+  padding: 6px;
+  border: 2px solid black;
+
+}
+
+#footAdress{
+  float-right: left;
+  text-align: right;
+
+}
+
+.price {
+  width: 10%;
+	float: right;
+	margin-left: 100px;
+  
+}
+
+.details{
+ 
+}
+
+.namesFood{
+  font-weight:bold;
+
+}
+
+.headSections{
+  color: black;
+  text-transform: uppercase;
+}
+
+
+

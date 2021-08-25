@@ -1,0 +1,93 @@
+body {
+  font-family: lato;
+  font-size: 18px;
+  background-image: url("https://bit.ly/3yhhrAh");
+  background-image-height:10px;
+  
+  
+}
+
+#title{
+  font-family: Supermercado One;
+  font-seix: 45px;
+  color: #5d4037;
+}
+
+#s1 {
+  
+}
+
+#s2 {
+  
+}
+
+#main {
+	float: center;
+	
+}
+
+#activate {
+  
+}
+
+#activate1{
+  
+} 
+
+#activate2{
+  
+}
+
+#menu{
+  column-count: 2;
+  column-rule-style: dotted;
+  column-rule-width: 2px;
+  column-rule-color: #bc8f8f;
+}
+
+#starters{
+  
+}
+
+#soupssalads{
+  
+}
+
+#entrees{
+  
+}
+
+#desserts{
+  
+}
+
+#footAdress{
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #bc8f8f;
+}
+
+.price {
+  color: #b22222;
+  width: 12.5%;
+	float: right;
+	margin-left: 30px;
+  
+}
+
+.details{
+  
+}
+
+.namesFood{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.headSections{
+  color: #6d4c41;
+  font-variant: small-caps;
+}
+
+
+

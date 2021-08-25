@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+//<!DOCTYPE html>
 <html>
 <head>
     <title>Rossum's Universal Restaurant</title>
@@ -15,24 +15,25 @@
                     <a id="activate1" href="#">One</a>
                     <a id="activate2" href="#">Two</a>
                 </nav>
-                <h1>Rossum's Universal Restaurant</h1>
+                <h1 id="title">Rossum's Universal Restaurant</h1>
         </header>
 
         <div id="menu">
+          <colum>
         <section id="starters">
-                <h2>Starters</h2>
+                <h2 class="headSections">Starters</h2>
                 <dl>
-                    <dt>Crispy Fried Cauliflower</dt>
+                    <dt class="namesFood">Crispy Fried Cauliflower</dt>
                     <dd>
                             <span class="price">4.95</span>
                             <span class="details">Beer-battered, breaded, and butter-fried and garnished with diced french onion</span>
                     </dd>
-                    <dt>Apple Delight</dt>
+                    <dt class="namesFood">Apple Delight</dt>
                     <dd>
                             <span class="price">3.95</span>
                             <span class="details">Fresh slices of Granny Smith apples lightly glazed with honey</span>
                     </dd>
-                    <dt>Lone Olive</dt>
+                    <dt class="namesFood">Lone Olive</dt>
                     <dd>
                         <span class="price">1.95</span>
                         <span class="details">A single olive, starkly isolated against the blank expanse of a barren plate</span>
@@ -41,19 +42,19 @@
         </section>
 
         <section id="soupssalads">
-                <h2>Soups and Salads</h2>
+                <h2 class="headSections">Soups and Salads</h2>
                 <dl>
-                    <dt>Tomato and Onion Soup</dt>
+                    <dt class="namesFood">Tomato and Onion Soup</dt>
                     <dd>
                             <span class="price">6.95</span>
                             <span class="details">Squashed, blended, salted and boiled to perfection</span>                            
                     </dd>
-                    <dt>Grass Salad</dt>
+                    <dt class="namesFood">Grass Salad</dt>
                     <dd>
                             <span class="price">5.95</span>
                             <span class="details">Organic fescue and bluegrass and a light sprinkling of Bermuda grass, served on a bed of Zoysia</span>                            
                     </dd>
-                    <dt>Mushroom yum-yum</dt>
+                    <dt class="namesFood">Mushroom yum-yum</dt>
                     <dd>
                             <span class="price">7.95</span>
                             <span class="details">Three varieties of fresh-picked, minimally toxic fungus</span>                            
@@ -62,19 +63,19 @@
         </section>
 
         <section id="entrees">
-                <h2>Entrees</h2>
+                <h2 class="headSections">Entrees</h2>
                 <dl>
-                    <dt>Bread Sandwich Inception</dt>
+                    <dt class="namesFood">Bread Sandwich Inception</dt>
                     <dd>
                             <span class="price">13.95</span>
                             <span class="details">Two slices of rye between two slices of stone-ground wheat inside 2 slices of raisin bread enclosed within a poppy seed bun</span>                            
                     </dd>
-                    <dt>Fractal Pizza</dt>
+                    <dt class="namesFood">Fractal Pizza</dt>
                     <dd>
                             <span class="price">15.95</span>
                             <span class="details">Our signature hand-tossed pizza never burns the roof of your mouth; the space filling curve defining the crust perimeter leaves no surface area for toppings</span>                            
                     </dd>
-                    <dt>BBQ Medley</dt>
+                    <dt class="namesFood">BBQ Medley</dt>
                     <dd>
                             <span class="price">14.95</span>
                             <span class="details">Our house specialty dry rub transforms this pulled fork into a spoon-worthy meal, sure to give you a knife to remember</span>                            
@@ -83,30 +84,32 @@
         </section>
 
         <section id="desserts">
-                <h2>Desserts</h2>
+                <h2 class="headSections">Desserts</h2>
                 <dl>
-                    <dt>Chocolate Volcano</dt>
+                    <dt class="namesFood">Chocolate Volcano</dt>
                     <dd>
                             <span class="price">6.95</span>
                             <span class="details">You know you want it, it is really quite magnificently tasty</span>    
                     </dd>
-                    <dt>Gingerbread Me</dt>
+                    <dt class="namesFood">Gingerbread Me</dt>
                     <dd>
                             <span class="price">6.95</span>
                             <span class="details">One of a kind gingerbread homunculus custom-made in your own likeness</span>    
                     </dd>
                 </dl>
         </section>
+        <colum>
         </div>
 
         <footer>
-            <address>
+            <address id="footAdress">
                 Located at 395 Iowa Street.
                 <br>
                 Open to the public on the 2nd Wednesday and 3rd Tuesday of every February, 11:30am-1:30pm.
             </address>
         </footer>
     </div>
+      
     <script>
             function changeToOne() {
                 const s1 = document.getElementById('s1');
