@@ -9,7 +9,7 @@ body {
 
 #title{
   font-family: Supermercado One;
-  font-seix: 45px;
+  font-size: 45px;
   color: #5d4037;
 }
 
@@ -81,7 +81,7 @@ body {
 
 .namesFood{
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .headSections{
